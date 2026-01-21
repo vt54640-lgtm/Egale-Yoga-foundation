@@ -10,7 +10,6 @@ const Navbar = () => {
         { path: '/', label: 'Home' },
         { path: '/courses', label: 'Courses' },
         { path: '/ai-health-test', label: 'AI Health Test' },
-        { path: '/ai-consultant', label: 'Eagle AI' },
         { path: '/blog', label: 'Blog' },
         { path: '/diet-plans', label: 'Diet Plans' },
         { path: '/history', label: 'History' },

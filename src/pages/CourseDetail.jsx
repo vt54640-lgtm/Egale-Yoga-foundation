@@ -1,10 +1,40 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { coursesData } from '../data/mockData';
+import { isAuthenticated, enrollInCourse } from '../services/auth';
+import { processPayment, processDemoPayment } from '../services/razorpay';
 import './CourseDetail.css';
 
 const CourseDetail = () => {
     const { level } = useParams();
-    const course = coursesData.find(c => c.id === level);
+    const navigate = useNavigate();
+    // Ensure we compare numbers correctly (params are strings)
+    const course = coursesData.find(c => c.id === parseInt(level));
+
+    const handleEnroll = async () => {
+        if (!isAuthenticated()) {
+            alert("Please login to enroll in this course.");
+            navigate('/login');
+            return;
+        }
+
+        // In a real app, you would get user details from auth
+        const userDetails = { name: 'Student', email: 'student@example.com' };
+
+        // Process payment (currently using demo mode for ease)
+        const result = await processDemoPayment(course, userDetails);
+
+        if (result.success) {
+            const enrollResult = await enrollInCourse(course.id, result);
+            if (enrollResult.success) {
+                alert(`Successfully enrolled in ${course.title}!`);
+                navigate('/dashboard');
+            } else {
+                alert("Enrollment failed: " + enrollResult.error);
+            }
+        } else {
+            alert("Payment failed or cancelled.");
+        }
+    };
 
     if (!course) {
         return (
@@ -90,7 +120,10 @@ const CourseDetail = () => {
                                 <div className="price-inr">₹{course.priceINR.toLocaleString()}</div>
                                 <div className="price-usd">${course.priceUSD} USD</div>
                             </div>
-                            <button className="btn btn-primary btn-block btn-lg">
+                            <button
+                                onClick={handleEnroll}
+                                className="btn btn-primary btn-block btn-lg"
+                            >
                                 Enroll Now
                             </button>
                             <Link to="/ai-health-test" className="btn btn-outline btn-block">

@@ -4,18 +4,16 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Courses from './pages/Courses';
 import CourseDetail from './pages/CourseDetail';
-import {
-  AIHealthTest,
-  AIConsultant,
-  Blog,
-  BlogPost,
-  DietPlans,
-  History,
-  About,
-  Contact,
-  Login,
-  Dashboard
-} from './pages/PlaceholderPages';
+import AIConsultant from './pages/AIConsultant';
+import AIHealthTest from './pages/AIHealthTest';
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
+import DietPlans from './pages/DietPlans';
+import History from './pages/History';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Login from './pages/Login';
+import Dashboard from './pages/Dashboard';
 import './App.css';
 
 function App() {

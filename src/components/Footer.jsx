@@ -62,7 +62,6 @@ const Footer = () => {
                             <li><Link to="/courses/level-2">Level 2 - Intermediate</Link></li>
                             <li><Link to="/courses/level-3">Level 3 - Advanced</Link></li>
                             <li><Link to="/ai-health-test">AI Health Test</Link></li>
-                            <li><Link to="/ai-consultant">Eagle AI Consultant</Link></li>
                         </ul>
                     </div>
 
