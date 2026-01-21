@@ -1,30 +1,35 @@
-// Helper to load the Razorpay SDK
 const loadRazorpayConfig = (src) => {
     return new Promise((resolve) => {
+        // Check if script is already loaded
+        if (document.querySelector(`script[src="${src}"]`)) {
+            resolve(true);
+            return;
+        }
         const script = document.createElement('script');
         script.src = src;
-        script.onload = () => {
-            resolve(true);
-        };
-        script.onerror = () => {
-            resolve(false);
-        };
+        script.onload = () => resolve(true);
+        script.onerror = () => resolve(false);
         document.body.appendChild(script);
     });
 };
 
 export const processPayment = async (course, userDetails) => {
-    const API_KEY = import.meta.env.VITE_RAZORPAY_KEY_ID || 'rzp_test_demo';
+    // 1. Get Key
+    let API_KEY = import.meta.env.VITE_RAZORPAY_KEY_ID;
 
-    // DEMO MODE: If using the placeholder key, simulate success
-    if (API_KEY === 'rzp_test_demo' || !API_KEY) {
-        console.warn('Razorpay Key is "rzp_test_demo". Running in SIMULATION mode.');
-        return new Promise((resolve) => {
-            const confirmed = window.confirm(
-                `[DEMO MODE]\n\nRazorpay API Key is not set or is 'rzp_test_demo'.\n\nWould you like to simulate a successful payment for ${course.title} (₹${course.priceINR})?`
-            );
+    console.log("------------------------------------------");
+    console.log("RAZORPAY DEBUG: Start Payment Process");
+    console.log("Env Key ID:", API_KEY);
+    console.log("------------------------------------------");
 
-            if (confirmed) {
+    // 2. Logic: If Key is missing or default, force simulation with a warning.
+    if (!API_KEY || API_KEY === 'rzp_test_demo') {
+        const confirmSim = window.confirm(
+            "⚠️ CONFIGURATION ALERT ⚠️\n\nThe app is still seeing the old 'Demo Key' or no key.\n\nPossible Reason: You updated .env but haven't restarted the server yet.\n\nClick OK to simulate a fake successful payment.\nClick Cancel to stop and restart your server."
+        );
+
+        if (confirmSim) {
+            return new Promise((resolve) => {
                 setTimeout(() => {
                     resolve({
                         success: true,
@@ -33,30 +38,28 @@ export const processPayment = async (course, userDetails) => {
                         signature: 'demo_signature'
                     });
                 }, 1000);
-            } else {
-                resolve({ success: false });
-            }
-        });
+            });
+        }
+        return { success: false };
     }
 
-    // REAL MODE: Try to load SDK and open actual Razorpay
+    // 3. Load SDK
     const res = await loadRazorpayConfig('https://checkout.razorpay.com/v1/checkout.js');
-
     if (!res) {
         alert('Razorpay SDK failed to load. Please check your internet connection.');
         return { success: false };
     }
 
+    // 4. Real Payment Initialization
     const options = {
-        key: API_KEY,
+        key: API_KEY, // Use the real key
         amount: course.priceINR * 100,
         currency: 'INR',
         name: 'Eagle Yoga Foundation',
         description: `Enrollment: ${course.title}`,
         image: 'https://cdn-icons-png.flaticon.com/512/2621/2621040.png',
         handler: function (response) {
-            console.log('Payment ID: ', response.razorpay_payment_id);
-            // In a real app, verifying signature on backend is mandatory
+            console.log('Payment Success:', response);
             return {
                 success: true,
                 paymentId: response.razorpay_payment_id,
@@ -73,12 +76,23 @@ export const processPayment = async (course, userDetails) => {
             address: 'Eagle Yoga Foundation HQ'
         },
         theme: {
-            color: '#FF4500' // Primary Brand Color
+            color: '#FF4500'
+        },
+        modal: {
+            ondismiss: function () {
+                console.log('Checkout form closed by user');
+            }
         }
     };
 
     return new Promise((resolve) => {
         try {
+            if (!window.Razorpay) {
+                alert("Critical Error: Razorpay SDK loaded but window.Razorpay object is missing.");
+                resolve({ success: false });
+                return;
+            }
+
             const paymentObject = new window.Razorpay({
                 ...options,
                 handler: function (response) {
@@ -88,14 +102,14 @@ export const processPayment = async (course, userDetails) => {
 
             paymentObject.on('payment.failed', function (response) {
                 console.error("Payment Failed:", response.error);
-                alert(`Payment Failed: ${response.error.description}`);
+                alert(`Payment Initialized but Failed: ${response.error.description}`);
                 resolve({ success: false, error: response.error });
             });
 
             paymentObject.open();
         } catch (err) {
             console.error("Razorpay Initialization Error:", err);
-            alert("Could not initialize payment gateway. Please check your API Key.");
+            alert(`System Error: ${err.message}. Check console for details.`);
             resolve({ success: false });
         }
     });
