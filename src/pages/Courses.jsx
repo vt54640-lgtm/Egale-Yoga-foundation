@@ -70,9 +70,9 @@ const Courses = () => {
                                     <Link to={`/courses/${course.id}`} className="btn btn-primary btn-block">
                                         View Details
                                     </Link>
-                                    <button className="btn btn-outline btn-block">
+                                    <Link to={`/courses/${course.id}`} className="btn btn-outline btn-block">
                                         Enroll Now
-                                    </button>
+                                    </Link>
                                 </div>
                             </div>
                         ))}

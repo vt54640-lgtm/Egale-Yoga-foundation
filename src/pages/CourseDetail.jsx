@@ -7,8 +7,8 @@ import './CourseDetail.css';
 const CourseDetail = () => {
     const { level } = useParams();
     const navigate = useNavigate();
-    // Ensure we compare numbers correctly (params are strings)
-    const course = coursesData.find(c => c.id === parseInt(level));
+    // Ensure we compare strings correctly as IDs are strings (e.g., 'level-1')
+    const course = coursesData.find(c => c.id === level);
 
     const handleEnroll = async () => {
         if (!isAuthenticated()) {

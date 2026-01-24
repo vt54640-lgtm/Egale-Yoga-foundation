@@ -13,45 +13,120 @@ export const blogPosts = [
         readTime: '12 min read',
         image: '📜',
         tags: ['History', 'Philosophy', 'Culture'],
-        content: `Yoga's rich history spans over 5,000 years, originating in ancient India as a comprehensive system for physical, mental, and spiritual development.
+        content: `Yoga is more than just a physical exercise; it is a profound spiritual and philosophical system that has evolved over five millennia. To truly understand yoga, one must journey back to its roots in ancient India, exploring the cultural, spiritual, and intellectual landscapes that gave birth to this transformative practice. This comprehensive guide delves deep into the origins, evolution, and enduring legacy of yoga, offering a detailed perspective for practitioners and enthusiasts alike.
 
-## The Vedic Period (1500-500 BCE)
+## The Dawn of Yoga: The Indus Valley Civilization (c. 3300–1300 BCE)
 
-The earliest mentions of yoga appear in the Rig Veda, one of the oldest sacred texts. During this period, yoga was primarily a spiritual practice focused on meditation and ritual.
+The story of yoga begins in the mist of pre-history. While the exact origins are shrouded in time, archaeological discoveries in the Indus Valley Civilization—spanning modern-day Pakistan and northwest India—provide the earliest glimpses of yoga-like practices. 
 
-## Classical Yoga
+Excavations at Mohenjo-Daro and Harappa have unearthed seals dating back to roughly 2700 BCE. The most famous of these is the "Pashupati Seal," which depicts a figure seated in a meditative posture, likely *Mulabandhasana*, surrounded by animals. This figure, often interpreted as a proto-Shiva (the Lord of Yoga), suggests that the physical and mental discipline of yoga was already emerging as a spiritual technology.
 
-Patanjali's Yoga Sutras (200 BCE - 200 CE) systematized yoga philosophy, introducing the Eight Limbs of Yoga:
-1. Yama (ethical standards)
-2. Niyama (self-discipline)
-3. Asana (postures)
-4. Pranayama (breath control)
-5. Pratyahara (sense withdrawal)
-6. Dharana (concentration)
-7. Dhyana (meditation)
-8. Samadhi (enlightenment)
+These early inhabitants likely practiced rituals aimed at transcending the mundane human experience, laying the groundwork for the ascetic traditions that would later define yoga.
 
-## Modern Evolution
+## The Vedic Period (c. 1500–500 BCE): The Hymns of Knowledge
 
-In the 20th century, yoga masters like Krishnamacharya, Iyengar, and Pattabhi Jois brought yoga to the West, adapting ancient practices for modern practitioners.
+As the Indus Valley Civilization declined, the Vedic period emerged, characterized by the *Vedas*—the oldest sacred texts of Hinduism. The word "yoga" first appears in the *Rig Veda*, derived from the Sanskrit root *yuj*, meaning "to yoke" or "to unite." 
 
-## Join Our Journey
+In this era, yoga wasn't about postures. It was a rigorous mental discipline used by Vedic priests (`Rishis`) to focus their minds for complex rituals (`Yajnas`). The "yoking" referred to the harnessing of one's senses and mind to connect with the divine cosmic order (`Rta`).
 
-At Eagle Yoga Foundation, we honor this rich tradition while making yoga accessible to everyone. Explore our courses to begin your own transformative journey.`
+The Vedas introduced the concept of *Tapas* (ascetic heat/discipline), which became a core element of yoga. Rishis would perform intense austerities to purify the body and mind, believing that through such heat, they could transcend mortal limitations.
+
+## The Pre-Classical Era: The Upanishads (c. 500–200 BCE)
+
+The *Upanishads*, meaning "sitting near" (a teacher), mark a pivotal shift from external ritual to internal spirituality. Here, yoga began to take a more recognizable form. The *Katha Upanishad* offers the first explicit definition of yoga as a method of controlling the senses and the mind. It uses the metaphor of a chariot:
+- The body is the chariot.
+- The self (`Atman`) is the rider.
+- The intellect (`Buddhi`) is the charioteer.
+- The mind (`Manas`) is the reins.
+- The senses are the horses.
+
+Yoga, then, is the masterful control of the horses (senses) by the charioteer (intellect) to guide the rider (soul) to its destination—liberation (`Moksha`).
+
+This period also saw the composition of the *Bhagavad Gita* (c. 300 BCE), arguably the most influential text in yoga history. The Gita presents three main paths of yoga:
+1.  **Karma Yoga**: The yoga of selfless action.
+2.  **Bhakti Yoga**: The yoga of devotion.
+3.  **Jnana Yoga**: The yoga of wisdom and knowledge.
+4.  **Raja Yoga**: The yoga of meditation (implied as the path of the royal road).
+
+The Gita emphasizes that yoga is "skill in action" and "equanimity of mind," broadening its scope from ascetic seclusion to active participation in the world.
+
+## Classical Yoga: Patanjali's Yoga Sutras (c. 200 CE)
+
+Around the 2nd century CE, the sage Patanjali compiled the *Yoga Sutras*, creating the first systematic presentation of yoga. This period is known as Classical Yoga. Patanjali defined yoga as *Citya-vritti-nirodha*—"the cessation of the fluctuations of the mind."
+
+He outlined the **Eight Limbs of Yoga (Ashtanga Yoga)**, a step-by-step path to enlightenment (`Samadhi`):
+
+1.  **Yama (Ethical Restraints)**:
+    *   *Ahimsa* (Non-violence)
+    *   *Satya* (Truthfulness)
+    *   *Asteya* (Non-stealing)
+    *   *Brahmacharya* (Moderation/Celibacy)
+    *   *Aparigraha* (Non-possessiveness)
+
+2.  **Niyama (Internal Observances)**:
+    *   *Saucha* (Cleanliness)
+    *   *Santosha* (Contentment)
+    *   *Tapas* (Discipline)
+    *   *Svadhyaya* (Self-study)
+    *   *Ishvara Pranidhana* (Surrender to the Divine)
+
+3.  **Asana (Posture)**: In Patanjali's time, this referred mainly to a stable seated position for meditation, not the acrobatic flows we see today. "Sthira sukham asanam"—posture should be steady and comfortable.
+
+4.  **Pranayama (Breath Control)**: Regulating the life force (`Prana`) to calm the mind.
+
+5.  **Pratyahara (Withdrawal of Senses)**: Drawing awareness inward, away from external stimuli.
+
+6.  **Dharana (Concentration)**: Unwavering focus on a single object or thought.
+
+7.  **Dhyana (Meditation)**: A continuous flow of awareness toward the object of focus.
+
+8.  **Samadhi (Absorption)**: The state of union where the meditator and the object of meditation merge; pure bliss and realization.
+
+## Post-Classical Yoga: Tantra and Hatha Yoga (c. 500–1500 CE)
+
+While Classical Yoga viewed the body as an obstacle to be transcended, the Post-Classical era, influenced by **Tantra**, began to view the body as a temple and a vehicle for enlightenment. 
+
+Tantric yogis developed techniques to energize the body and extend life, believing that a healthy, strong body was necessary for spiritual practice. This gave rise to **Hatha Yoga** ("Ha" = Sun, "Tha" = Moon), the yoga of balance.
+
+Key texts like the *Hatha Yoga Pradipika* (15th century) by Swami Swatmarama introduced elaborate physical postures (`asanas`), breath work (`pranayama`), locks (`bandhas`), and gestures (`mudras`) designed to awaken the dormant cosmic energy (`Kundalini`) at the base of the spine.
+
+This is the direct ancestor of the yoga practiced in studios around the world today. It was a radical shift: instead of denying the body, yogis embraced it as a tool for transformation.
+
+## Modern Yoga: The Global Renaissance (Late 19th Century – Present)
+
+The journey of yoga to the West began in earnest in 1893, when **Swami Vivekananda** wowed the Parliament of Religions in Chicago, introducing yoga philosophy to the American public. However, the physical practice (`asana`) gained prominence later.
+
+In the early 20th century, the Maharaja of Mysore employed **T. Krishnamacharya**, often called the "Father of Modern Yoga." He combined traditional Hatha Yoga with British gymnastics and wrestling exercises to create dynamic sequences. His students—B.K.S. Iyengar, K. Pattabhi Jois, and T.K.V. Desikachar—went on to popularize different styles globally:
+
+*   **Iyengar Yoga**: Focused on precision, alignment, and the use of props.
+*   **Ashtanga Vinyasa**: A rigorous, athletic flow that inspired Power Yoga.
+*   **Viniyoga**: A therapeutic, personalized approach.
+
+In the 1960s and 70s, as the counterculture movement sought Eastern spirituality, yoga exploded in popularity. Today, it has evolved into a multi-billion dollar wellness industry, with diverse styles ranging from Bikram (Hot) Yoga to Aerial Yoga and Goat Yoga.
+
+## The Future of Yoga: Technology and Tradition
+
+As we stand in the 21st century, yoga enters a new phase. We are seeing a synthesis of ancient wisdom with modern science. Research validates the benefits of yoga for stress, heart health, and mental well-being. Platforms like **Eagle Yoga Foundation** are pioneering the integration of AI technology with traditional teaching, making personalized guidance accessible to millions.
+
+While the methods evolve—from forest hermitages to Zoom classes—the core goal remains unchanged: the union of body, mind, and spirit, and the realization of our true, limitless nature.
+
+Whether you are unrolling your mat for the first time or are a seasoned yogi, you are part of this 5,000-year-old lineage. Every breath, every pose, is a step on a path comfortably worn by millions of seekers before you.
+
+*Namaste.*`
     },
-    {
-        id: 2,
+{
+    id: 2,
         title: '10 Essential Yoga Poses for Complete Beginners',
-        slug: 'essential-yoga-poses-beginners',
-        excerpt: 'Master these fundamental asanas to build a strong foundation for your yoga practice.',
-        category: 'Practice',
-        author: 'Rahul Verma',
-        authorImage: '👨‍🏫',
-        date: '2026-01-18',
-        readTime: '8 min read',
-        image: '🧘',
-        tags: ['Beginners', 'Asanas', 'Practice'],
-        content: `Starting your yoga journey can feel overwhelming. These 10 essential poses will help you build strength, flexibility, and confidence.
+            slug: 'essential-yoga-poses-beginners',
+                excerpt: 'Master these fundamental asanas to build a strong foundation for your yoga practice.',
+                    category: 'Practice',
+                        author: 'Rahul Verma',
+                            authorImage: '👨‍🏫',
+                                date: '2026-01-18',
+                                    readTime: '8 min read',
+                                        image: '🧘',
+                                            tags: ['Beginners', 'Asanas', 'Practice'],
+                                                content: `Starting your yoga journey can feel overwhelming. These 10 essential poses will help you build strength, flexibility, and confidence.
 
 ## 1. Mountain Pose (Tadasana)
 The foundation of all standing poses. Improves posture and body awareness.
@@ -86,20 +161,20 @@ Stretches spine and hamstrings, calms the mind.
 ## Start Your Practice Today
 
 Our Level 1 course covers all these poses and more. Enroll now for just ₹5,999!`
-    },
-    {
-        id: 3,
+},
+{
+    id: 3,
         title: 'Pranayama: The Science of Breath Control',
-        slug: 'pranayama-breath-control-science',
-        excerpt: 'Learn how ancient breathing techniques can transform your health, reduce stress, and enhance mental clarity.',
-        category: 'Wellness',
-        author: 'Priya Patel',
-        authorImage: '👩‍🔬',
-        date: '2026-01-20',
-        readTime: '10 min read',
-        image: '🌬️',
-        tags: ['Pranayama', 'Breathing', 'Wellness'],
-        content: `Pranayama, the yogic practice of breath control, is a powerful tool for managing stress, improving focus, and enhancing overall health.
+            slug: 'pranayama-breath-control-science',
+                excerpt: 'Learn how ancient breathing techniques can transform your health, reduce stress, and enhance mental clarity.',
+                    category: 'Wellness',
+                        author: 'Priya Patel',
+                            authorImage: '👩‍🔬',
+                                date: '2026-01-20',
+                                    readTime: '10 min read',
+                                        image: '🌬️',
+                                            tags: ['Pranayama', 'Breathing', 'Wellness'],
+                                                content: `Pranayama, the yogic practice of breath control, is a powerful tool for managing stress, improving focus, and enhancing overall health.
 
 ## What is Pranayama?
 
@@ -131,20 +206,20 @@ Reduces anxiety, lowers blood pressure.
 ## Getting Started
 
 Begin with 5-10 minutes daily. Our Level 2 course includes comprehensive pranayama training.`
-    },
-    {
-        id: 4,
+},
+{
+    id: 4,
         title: 'Meditation for Beginners: A Complete Guide',
-        slug: 'meditation-beginners-complete-guide',
-        excerpt: 'Start your meditation practice with this comprehensive guide covering techniques, benefits, and common challenges.',
-        category: 'Meditation',
-        author: 'Dr. Ananya Sharma',
-        authorImage: '👩‍⚕️',
-        date: '2026-01-16',
-        readTime: '15 min read',
-        image: '🧘‍♀️',
-        tags: ['Meditation', 'Mindfulness', 'Beginners'],
-        content: `Meditation is a practice of focused attention that brings numerous mental and physical benefits.
+            slug: 'meditation-beginners-complete-guide',
+                excerpt: 'Start your meditation practice with this comprehensive guide covering techniques, benefits, and common challenges.',
+                    category: 'Meditation',
+                        author: 'Dr. Ananya Sharma',
+                            authorImage: '👩‍⚕️',
+                                date: '2026-01-16',
+                                    readTime: '15 min read',
+                                        image: '🧘‍♀️',
+                                            tags: ['Meditation', 'Mindfulness', 'Beginners'],
+                                                content: `Meditation is a practice of focused attention that brings numerous mental and physical benefits.
 
 ## Why Meditate?
 
@@ -188,20 +263,20 @@ Cultivate compassion for self and others.
 - Impatience: Progress takes time
 
 Join our courses to learn meditation techniques from expert instructors!`
-    },
-    {
-        id: 5,
+},
+{
+    id: 5,
         title: 'Ayurvedic Diet: Eating for Your Dosha',
-        slug: 'ayurvedic-diet-eating-for-dosha',
-        excerpt: 'Discover how to eat according to your unique constitution for optimal health and vitality.',
-        category: 'Nutrition',
-        author: 'Chef Meera Singh',
-        authorImage: '👩‍🍳',
-        date: '2026-01-14',
-        readTime: '11 min read',
-        image: '🥗',
-        tags: ['Ayurveda', 'Diet', 'Nutrition'],
-        content: `Ayurveda teaches that food should be chosen according to your unique constitution (dosha) for optimal health.
+            slug: 'ayurvedic-diet-eating-for-dosha',
+                excerpt: 'Discover how to eat according to your unique constitution for optimal health and vitality.',
+                    category: 'Nutrition',
+                        author: 'Chef Meera Singh',
+                            authorImage: '👩‍🍳',
+                                date: '2026-01-14',
+                                    readTime: '11 min read',
+                                        image: '🥗',
+                                            tags: ['Ayurveda', 'Diet', 'Nutrition'],
+                                                content: `Ayurveda teaches that food should be chosen according to your unique constitution (dosha) for optimal health.
 
 ## The Three Doshas
 
@@ -237,22 +312,22 @@ Avoid: Heavy, oily, sweet foods
 **Snacks:** Fresh fruits, nuts
 
 Our courses include personalized diet plans based on your dosha!`
-    },
+},
 
-    // Continue with 25 more blog posts...
-    {
-        id: 6,
+// Continue with 25 more blog posts...
+{
+    id: 6,
         title: 'Yoga for Stress Relief: 7 Poses That Work',
-        slug: 'yoga-stress-relief-poses',
-        excerpt: 'Combat daily stress with these calming yoga poses backed by science.',
-        category: 'Wellness',
-        author: 'Rahul Verma',
-        authorImage: '👨‍🏫',
-        date: '2026-01-13',
-        readTime: '9 min read',
-        image: '😌',
-        tags: ['Stress Relief', 'Asanas', 'Mental Health'],
-        content: `Stress is epidemic in modern life. These yoga poses activate your parasympathetic nervous system for deep relaxation.
+            slug: 'yoga-stress-relief-poses',
+                excerpt: 'Combat daily stress with these calming yoga poses backed by science.',
+                    category: 'Wellness',
+                        author: 'Rahul Verma',
+                            authorImage: '👨‍🏫',
+                                date: '2026-01-13',
+                                    readTime: '9 min read',
+                                        image: '😌',
+                                            tags: ['Stress Relief', 'Asanas', 'Mental Health'],
+                                                content: `Stress is epidemic in modern life. These yoga poses activate your parasympathetic nervous system for deep relaxation.
 
 ## 1. Child's Pose (Balasana)
 Calms the brain, relieves stress and fatigue.
@@ -276,21 +351,21 @@ Therapeutic for stress and mild depression.
 Opens chest, reduces fatigue.
 
 Practice these daily for 15-20 minutes to see significant stress reduction!`
-    },
+},
 
-    {
-        id: 7,
+{
+    id: 7,
         title: 'The Chakra System: Understanding Your Energy Centers',
-        slug: 'chakra-system-energy-centers',
-        excerpt: 'Explore the seven chakras and learn how to balance your energy for optimal well-being.',
-        category: 'Philosophy',
-        author: 'Dr. Ananya Sharma',
-        authorImage: '👩‍⚕️',
-        date: '2026-01-12',
-        readTime: '13 min read',
-        image: '🌈',
-        tags: ['Chakras', 'Energy', 'Spirituality'],
-        content: `The chakra system is an ancient model of energy centers in the body, each governing different aspects of physical and emotional health.
+            slug: 'chakra-system-energy-centers',
+                excerpt: 'Explore the seven chakras and learn how to balance your energy for optimal well-being.',
+                    category: 'Philosophy',
+                        author: 'Dr. Ananya Sharma',
+                            authorImage: '👩‍⚕️',
+                                date: '2026-01-12',
+                                    readTime: '13 min read',
+                                        image: '🌈',
+                                            tags: ['Chakras', 'Energy', 'Spirituality'],
+                                                content: `The chakra system is an ancient model of energy centers in the body, each governing different aspects of physical and emotional health.
 
 ## The Seven Chakras
 
@@ -338,21 +413,21 @@ Governs: Spirituality, enlightenment
 - Aromatherapy
 
 Learn chakra meditation in our advanced courses!`
-    },
+},
 
-    {
-        id: 8,
+{
+    id: 8,
         title: 'Yoga for Better Sleep: Evening Routine',
-        slug: 'yoga-better-sleep-evening-routine',
-        excerpt: 'Create a calming bedtime yoga routine to improve sleep quality and wake up refreshed.',
-        category: 'Wellness',
-        author: 'Priya Patel',
-        authorImage: '👩‍🔬',
-        date: '2026-01-11',
-        readTime: '8 min read',
-        image: '😴',
-        tags: ['Sleep', 'Evening Practice', 'Relaxation'],
-        content: `Quality sleep is essential for health. This gentle evening yoga routine prepares your body and mind for restful sleep.
+            slug: 'yoga-better-sleep-evening-routine',
+                excerpt: 'Create a calming bedtime yoga routine to improve sleep quality and wake up refreshed.',
+                    category: 'Wellness',
+                        author: 'Priya Patel',
+                            authorImage: '👩‍🔬',
+                                date: '2026-01-11',
+                                    readTime: '8 min read',
+                                        image: '😴',
+                                            tags: ['Sleep', 'Evening Practice', 'Relaxation'],
+                                                content: `Quality sleep is essential for health. This gentle evening yoga routine prepares your body and mind for restful sleep.
 
 ## The Science of Sleep and Yoga
 
@@ -390,21 +465,21 @@ Complete relaxation.
 - Maintain consistent sleep schedule
 
 Sweet dreams! 🌙`
-    },
+},
 
-    {
-        id: 9,
+{
+    id: 9,
         title: 'Yoga Philosophy: The Eight Limbs Explained',
-        slug: 'yoga-philosophy-eight-limbs',
-        excerpt: 'Dive deep into Patanjali\'s Ashtanga Yoga and discover the complete path to enlightenment.',
-        category: 'Philosophy',
-        author: 'Dr. Ananya Sharma',
-        authorImage: '👩‍⚕️',
-        date: '2026-01-10',
-        readTime: '14 min read',
-        image: '🕉️',
-        tags: ['Philosophy', 'Ashtanga', 'Spirituality'],
-        content: `Patanjali's Eight Limbs of Yoga provide a complete framework for spiritual development and self-realization.
+            slug: 'yoga-philosophy-eight-limbs',
+                excerpt: 'Dive deep into Patanjali\'s Ashtanga Yoga and discover the complete path to enlightenment.',
+                    category: 'Philosophy',
+                        author: 'Dr. Ananya Sharma',
+                            authorImage: '👩‍⚕️',
+                                date: '2026-01-10',
+                                    readTime: '14 min read',
+                                        image: '🕉️',
+                                            tags: ['Philosophy', 'Ashtanga', 'Spirituality'],
+                                                content: `Patanjali's Eight Limbs of Yoga provide a complete framework for spiritual development and self-realization.
 
 ## The Eight Limbs (Ashtanga)
 
@@ -445,21 +520,21 @@ Union with the divine, ultimate goal.
 Start with Yama and Niyama in daily life. Progress through the limbs systematically.
 
 Our Level 3 course covers advanced philosophy and practice!`
-    },
+},
 
-    {
-        id: 10,
+{
+    id: 10,
         title: 'Yoga for Back Pain: Relief and Prevention',
-        slug: 'yoga-back-pain-relief-prevention',
-        excerpt: 'Alleviate back pain and prevent future issues with these therapeutic yoga practices.',
-        category: 'Therapeutic',
-        author: 'Rahul Verma',
-        authorImage: '👨‍🏫',
-        date: '2026-01-09',
-        readTime: '10 min read',
-        image: '🔄',
-        tags: ['Back Pain', 'Therapeutic', 'Healing'],
-        content: `Back pain affects millions. These gentle yoga practices can provide relief and prevent future problems.
+            slug: 'yoga-back-pain-relief-prevention',
+                excerpt: 'Alleviate back pain and prevent future issues with these therapeutic yoga practices.',
+                    category: 'Therapeutic',
+                        author: 'Rahul Verma',
+                            authorImage: '👨‍🏫',
+                                date: '2026-01-09',
+                                    readTime: '10 min read',
+                                        image: '🔄',
+                                            tags: ['Back Pain', 'Therapeutic', 'Healing'],
+                                                content: `Back pain affects millions. These gentle yoga practices can provide relief and prevent future problems.
 
 ## Understanding Back Pain
 
@@ -510,23 +585,23 @@ Consult a doctor if pain:
 - Follows injury
 
 Our therapeutic yoga program can help! Consult with our instructors.`
-    },
+},
 
-    // Adding 20 more comprehensive blog posts to reach 30 total...
+// Adding 20 more comprehensive blog posts to reach 30 total...
 
-    {
-        id: 11,
+{
+    id: 11,
         title: 'Morning Yoga Routine: Energize Your Day',
-        slug: 'morning-yoga-routine-energize',
-        excerpt: 'Start your day with this invigorating 20-minute yoga sequence for energy and focus.',
-        category: 'Practice',
-        author: 'Priya Patel',
-        authorImage: '👩‍🔬',
-        date: '2026-01-08',
-        readTime: '7 min read',
-        image: '🌅',
-        tags: ['Morning Practice', 'Energy', 'Routine'],
-        content: `Transform your mornings with this energizing yoga routine designed to awaken body and mind.
+            slug: 'morning-yoga-routine-energize',
+                excerpt: 'Start your day with this invigorating 20-minute yoga sequence for energy and focus.',
+                    category: 'Practice',
+                        author: 'Priya Patel',
+                            authorImage: '👩‍🔬',
+                                date: '2026-01-08',
+                                    readTime: '7 min read',
+                                        image: '🌅',
+                                            tags: ['Morning Practice', 'Energy', 'Routine'],
+                                                content: `Transform your mornings with this energizing yoga routine designed to awaken body and mind.
 
 ## Benefits of Morning Yoga
 - Boosts metabolism
@@ -546,21 +621,21 @@ Our therapeutic yoga program can help! Consult with our instructors.`
 7. Final Relaxation
 
 Practice daily for best results!`
-    },
+},
 
-    {
-        id: 12,
+{
+    id: 12,
         title: 'Yoga and Mental Health: The Connection',
-        slug: 'yoga-mental-health-connection',
-        excerpt: 'Explore how yoga supports mental health through scientific research and ancient wisdom.',
-        category: 'Mental Health',
-        author: 'Dr. Ananya Sharma',
-        authorImage: '👩‍⚕️',
-        date: '2026-01-07',
-        readTime: '12 min read',
-        image: '🧠',
-        tags: ['Mental Health', 'Science', 'Wellness'],
-        content: `Scientific research confirms what yogis have known for millennia: yoga is powerful medicine for the mind.
+            slug: 'yoga-mental-health-connection',
+                excerpt: 'Explore how yoga supports mental health through scientific research and ancient wisdom.',
+                    category: 'Mental Health',
+                        author: 'Dr. Ananya Sharma',
+                            authorImage: '👩‍⚕️',
+                                date: '2026-01-07',
+                                    readTime: '12 min read',
+                                        image: '🧠',
+                                            tags: ['Mental Health', 'Science', 'Wellness'],
+                                                content: `Scientific research confirms what yogis have known for millennia: yoga is powerful medicine for the mind.
 
 ## Research-Backed Benefits
 
@@ -588,21 +663,21 @@ Practice daily for best results!`
 - Creates accountability
 
 Start your mental wellness journey with our courses!`
-    },
+},
 
-    {
-        id: 13,
+{
+    id: 13,
         title: 'Yoga for Athletes: Enhance Performance',
-        slug: 'yoga-athletes-enhance-performance',
-        excerpt: 'Discover how yoga can improve athletic performance, prevent injuries, and speed recovery.',
-        category: 'Sports',
-        author: 'Rahul Verma',
-        authorImage: '👨‍🏫',
-        date: '2026-01-06',
-        readTime: '11 min read',
-        image: '🏃',
-        tags: ['Athletes', 'Performance', 'Recovery'],
-        content: `Top athletes worldwide incorporate yoga for competitive edge. Here's why you should too.
+            slug: 'yoga-athletes-enhance-performance',
+                excerpt: 'Discover how yoga can improve athletic performance, prevent injuries, and speed recovery.',
+                    category: 'Sports',
+                        author: 'Rahul Verma',
+                            authorImage: '👨‍🏫',
+                                date: '2026-01-06',
+                                    readTime: '11 min read',
+                                        image: '🏃',
+                                            tags: ['Athletes', 'Performance', 'Recovery'],
+                                                content: `Top athletes worldwide incorporate yoga for competitive edge. Here's why you should too.
 
 ## Benefits for Athletes
 
@@ -637,21 +712,21 @@ We offer specialized programs for:
 - Martial artists
 
 Elevate your game with yoga!`
-    },
+},
 
-    {
-        id: 14,
+{
+    id: 14,
         title: 'Prenatal Yoga: Safe Practice for Expecting Mothers',
-        slug: 'prenatal-yoga-expecting-mothers',
-        excerpt: 'Learn safe and beneficial yoga practices for a healthy pregnancy and easier delivery.',
-        category: 'Prenatal',
-        author: 'Dr. Ananya Sharma',
-        authorImage: '👩‍⚕️',
-        date: '2026-01-05',
-        readTime: '10 min read',
-        image: '🤰',
-        tags: ['Prenatal', 'Pregnancy', 'Women\'s Health'],
-        content: `Prenatal yoga supports a healthy pregnancy, prepares for childbirth, and promotes bonding with baby.
+            slug: 'prenatal-yoga-expecting-mothers',
+                excerpt: 'Learn safe and beneficial yoga practices for a healthy pregnancy and easier delivery.',
+                    category: 'Prenatal',
+                        author: 'Dr. Ananya Sharma',
+                            authorImage: '👩‍⚕️',
+                                date: '2026-01-05',
+                                    readTime: '10 min read',
+                                        image: '🤰',
+                                            tags: ['Prenatal', 'Pregnancy', 'Women\'s Health'],
+                                                content: `Prenatal yoga supports a healthy pregnancy, prepares for childbirth, and promotes bonding with baby.
 
 ## Benefits
 
@@ -681,21 +756,21 @@ Focus on breathing, pelvic floor
 - Inversions (unless experienced)
 
 Join our prenatal yoga program for expert guidance!`
-    },
+},
 
-    {
-        id: 15,
+{
+    id: 15,
         title: 'Yoga for Seniors: Gentle Practice Guide',
-        slug: 'yoga-seniors-gentle-practice',
-        excerpt: 'Age-appropriate yoga practices to maintain mobility, balance, and vitality in later years.',
-        category: 'Senior Wellness',
-        author: 'Priya Patel',
-        authorImage: '👩‍🔬',
-        date: '2026-01-04',
-        readTime: '9 min read',
-        image: '👴',
-        tags: ['Seniors', 'Gentle Yoga', 'Aging'],
-        content: `Yoga is beneficial at any age. These gentle practices support healthy aging and quality of life.
+            slug: 'yoga-seniors-gentle-practice',
+                excerpt: 'Age-appropriate yoga practices to maintain mobility, balance, and vitality in later years.',
+                    category: 'Senior Wellness',
+                        author: 'Priya Patel',
+                            authorImage: '👩‍🔬',
+                                date: '2026-01-04',
+                                    readTime: '9 min read',
+                                        image: '👴',
+                                            tags: ['Seniors', 'Gentle Yoga', 'Aging'],
+                                                content: `Yoga is beneficial at any age. These gentle practices support healthy aging and quality of life.
 
 ## Benefits for Seniors
 
@@ -729,21 +804,21 @@ Perfect for limited mobility:
 - Practice with qualified instructor
 
 Our senior yoga program provides safe, effective practice!`
-    },
+},
 
-    {
-        id: 16,
+{
+    id: 16,
         title: 'Yoga Nidra: The Art of Yogic Sleep',
-        slug: 'yoga-nidra-yogic-sleep',
-        excerpt: 'Experience deep relaxation and healing through the practice of Yoga Nidra.',
-        category: 'Meditation',
-        author: 'Dr. Ananya Sharma',
-        authorImage: '👩‍⚕️',
-        date: '2026-01-03',
-        readTime: '8 min read',
-        image: '💤',
-        tags: ['Yoga Nidra', 'Relaxation', 'Meditation'],
-        content: `Yoga Nidra is a systematic method of inducing complete physical, mental, and emotional relaxation.
+            slug: 'yoga-nidra-yogic-sleep',
+                excerpt: 'Experience deep relaxation and healing through the practice of Yoga Nidra.',
+                    category: 'Meditation',
+                        author: 'Dr. Ananya Sharma',
+                            authorImage: '👩‍⚕️',
+                                date: '2026-01-03',
+                                    readTime: '8 min read',
+                                        image: '💤',
+                                            tags: ['Yoga Nidra', 'Relaxation', 'Meditation'],
+                                                content: `Yoga Nidra is a systematic method of inducing complete physical, mental, and emotional relaxation.
 
 ## What is Yoga Nidra?
 
@@ -777,21 +852,21 @@ Also called "yogic sleep," it's a state between waking and sleeping where deep h
 - Practice regularly
 
 30 minutes of Yoga Nidra equals 2-3 hours of sleep!`
-    },
+},
 
-    {
-        id: 17,
+{
+    id: 17,
         title: 'Yoga and Immunity: Boost Your Defenses',
-        slug: 'yoga-immunity-boost-defenses',
-        excerpt: 'Strengthen your immune system naturally with these yoga practices and lifestyle tips.',
-        category: 'Health',
-        author: 'Rahul Verma',
-        authorImage: '👨‍🏫',
-        date: '2026-01-02',
-        readTime: '10 min read',
-        image: '🛡️',
-        tags: ['Immunity', 'Health', 'Prevention'],
-        content: `A strong immune system is your best defense. Yoga supports immunity through multiple mechanisms.
+            slug: 'yoga-immunity-boost-defenses',
+                excerpt: 'Strengthen your immune system naturally with these yoga practices and lifestyle tips.',
+                    category: 'Health',
+                        author: 'Rahul Verma',
+                            authorImage: '👨‍🏫',
+                                date: '2026-01-02',
+                                    readTime: '10 min read',
+                                        image: '🛡️',
+                                            tags: ['Immunity', 'Health', 'Prevention'],
+                                                content: `A strong immune system is your best defense. Yoga supports immunity through multiple mechanisms.
 
 ## How Yoga Boosts Immunity
 
@@ -831,21 +906,21 @@ Reduces stress, boosts immune function
 - Manage stress
 
 Build resilience with our wellness programs!`
-    },
+},
 
-    {
-        id: 18,
+{
+    id: 18,
         title: 'Yoga for Digestion: Poses That Help',
-        slug: 'yoga-digestion-helpful-poses',
-        excerpt: 'Improve digestive health with these targeted yoga poses and Ayurvedic wisdom.',
-        category: 'Health',
-        author: 'Chef Meera Singh',
-        authorImage: '👩‍🍳',
-        date: '2026-01-01',
-        readTime: '8 min read',
-        image: '🌿',
-        tags: ['Digestion', 'Health', 'Ayurveda'],
-        content: `Digestive issues are common. These yoga practices support healthy digestion naturally.
+            slug: 'yoga-digestion-helpful-poses',
+                excerpt: 'Improve digestive health with these targeted yoga poses and Ayurvedic wisdom.',
+                    category: 'Health',
+                        author: 'Chef Meera Singh',
+                            authorImage: '👩‍🍳',
+                                date: '2026-01-01',
+                                    readTime: '8 min read',
+                                        image: '🌿',
+                                            tags: ['Digestion', 'Health', 'Ayurveda'],
+                                                content: `Digestive issues are common. These yoga practices support healthy digestion naturally.
 
 ## Digestive Benefits of Yoga
 
@@ -888,21 +963,21 @@ Reverse gravity's effect
 - Include digestive spices
 
 Healthy gut, healthy life!`
-    },
+},
 
-    {
-        id: 19,
+{
+    id: 19,
         title: 'Yoga and Flexibility: Progressive Training',
-        slug: 'yoga-flexibility-progressive-training',
-        excerpt: 'Safely increase flexibility with this progressive approach to stretching and yoga practice.',
-        category: 'Practice',
-        author: 'Rahul Verma',
-        authorImage: '👨‍🏫',
-        date: '2025-12-30',
-        readTime: '11 min read',
-        image: '🤸',
-        tags: ['Flexibility', 'Training', 'Progress'],
-        content: `Flexibility improves with consistent, intelligent practice. Here's how to progress safely.
+            slug: 'yoga-flexibility-progressive-training',
+                excerpt: 'Safely increase flexibility with this progressive approach to stretching and yoga practice.',
+                    category: 'Practice',
+                        author: 'Rahul Verma',
+                            authorImage: '👨‍🏫',
+                                date: '2025-12-30',
+                                    readTime: '11 min read',
+                                        image: '🤸',
+                                            tags: ['Flexibility', 'Training', 'Progress'],
+                                                content: `Flexibility improves with consistent, intelligent practice. Here's how to progress safely.
 
 ## Understanding Flexibility
 
@@ -956,21 +1031,21 @@ Healthy gut, healthy life!`
 - Rushing progress
 
 Track your progress in our structured courses!`
-    },
+},
 
-    {
-        id: 20,
+{
+    id: 20,
         title: 'Yoga for Heart Health: Cardiovascular Benefits',
-        slug: 'yoga-heart-health-cardiovascular',
-        excerpt: 'Discover how yoga supports heart health and reduces cardiovascular disease risk.',
-        category: 'Health',
-        author: 'Dr. Ananya Sharma',
-        authorImage: '👩‍⚕️',
-        date: '2025-12-29',
-        readTime: '12 min read',
-        image: '❤️',
-        tags: ['Heart Health', 'Cardiovascular', 'Prevention'],
-        content: `Research shows yoga significantly benefits heart health. Here's the science and practice.
+            slug: 'yoga-heart-health-cardiovascular',
+                excerpt: 'Discover how yoga supports heart health and reduces cardiovascular disease risk.',
+                    category: 'Health',
+                        author: 'Dr. Ananya Sharma',
+                            authorImage: '👩‍⚕️',
+                                date: '2025-12-29',
+                                    readTime: '12 min read',
+                                        image: '❤️',
+                                            tags: ['Heart Health', 'Cardiovascular', 'Prevention'],
+                                                content: `Research shows yoga significantly benefits heart health. Here's the science and practice.
 
 ## Cardiovascular Benefits
 
@@ -1023,21 +1098,21 @@ Consult doctor if you have:
 - Chest pain
 
 Our therapeutic programs support heart health safely!`
-    },
+},
 
-    {
-        id: 21,
+{
+    id: 21,
         title: 'Yoga for Weight Management: Holistic Approach',
-        slug: 'yoga-weight-management-holistic',
-        excerpt: 'Achieve and maintain healthy weight through yoga practice and mindful living.',
-        category: 'Wellness',
-        author: 'Priya Patel',
-        authorImage: '👩‍🔬',
-        date: '2025-12-28',
-        readTime: '10 min read',
-        image: '⚖️',
-        tags: ['Weight Management', 'Wellness', 'Lifestyle'],
-        content: `Yoga supports healthy weight through physical practice, mindfulness, and lifestyle changes.
+            slug: 'yoga-weight-management-holistic',
+                excerpt: 'Achieve and maintain healthy weight through yoga practice and mindful living.',
+                    category: 'Wellness',
+                        author: 'Priya Patel',
+                            authorImage: '👩‍🔬',
+                                date: '2025-12-28',
+                                    readTime: '10 min read',
+                                        image: '⚖️',
+                                            tags: ['Weight Management', 'Wellness', 'Lifestyle'],
+                                                content: `Yoga supports healthy weight through physical practice, mindfulness, and lifestyle changes.
 
 ## How Yoga Helps
 
@@ -1089,21 +1164,21 @@ Increased calorie burn
 - Be patient and consistent
 
 Join our wellness program for comprehensive support!`
-    },
+},
 
-    {
-        id: 22,
+{
+    id: 22,
         title: 'Yoga and Hormonal Balance: Women\'s Health',
-        slug: 'yoga-hormonal-balance-womens-health',
-        excerpt: 'Support hormonal health through yoga practices designed for women\'s unique needs.',
-        category: 'Women\'s Health',
-        author: 'Dr. Ananya Sharma',
-        authorImage: '👩‍⚕️',
-        date: '2025-12-27',
-        readTime: '11 min read',
-        image: '🌸',
-        tags: ['Hormones', 'Women\'s Health', 'Balance'],
-        content: `Yoga can help balance hormones naturally, supporting women through all life stages.
+            slug: 'yoga-hormonal-balance-womens-health',
+                excerpt: 'Support hormonal health through yoga practices designed for women\'s unique needs.',
+                    category: 'Women\'s Health',
+                        author: 'Dr. Ananya Sharma',
+                            authorImage: '👩‍⚕️',
+                                date: '2025-12-27',
+                                    readTime: '11 min read',
+                                        image: '🌸',
+                                            tags: ['Hormones', 'Women\'s Health', 'Balance'],
+                                                content: `Yoga can help balance hormones naturally, supporting women through all life stages.
 
 ## Hormonal Benefits
 
@@ -1150,21 +1225,21 @@ Join our wellness program for comprehensive support!`
 - Community connection
 
 Our women's wellness program provides specialized support!`
-    },
+},
 
-    {
-        id: 23,
+{
+    id: 23,
         title: 'Yoga for Focus and Concentration',
-        slug: 'yoga-focus-concentration',
-        excerpt: 'Enhance mental clarity and concentration with these yoga techniques for the modern mind.',
-        category: 'Mental Performance',
-        author: 'Rahul Verma',
-        authorImage: '👨‍🏫',
-        date: '2025-12-26',
-        readTime: '9 min read',
-        image: '🎯',
-        tags: ['Focus', 'Concentration', 'Productivity'],
-        content: `In our distracted world, yoga offers powerful tools for developing laser-like focus.
+            slug: 'yoga-focus-concentration',
+                excerpt: 'Enhance mental clarity and concentration with these yoga techniques for the modern mind.',
+                    category: 'Mental Performance',
+                        author: 'Rahul Verma',
+                            authorImage: '👨‍🏫',
+                                date: '2025-12-26',
+                                    readTime: '9 min read',
+                                        image: '🎯',
+                                            tags: ['Focus', 'Concentration', 'Productivity'],
+                                                content: `In our distracted world, yoga offers powerful tools for developing laser-like focus.
 
 ## How Yoga Improves Focus
 
@@ -1216,21 +1291,21 @@ Morning routine:
 - Be patient
 
 Sharpen your mind with our courses!`
-    },
+},
 
-    {
-        id: 24,
+{
+    id: 24,
         title: 'Yoga Philosophy in Daily Life',
-        slug: 'yoga-philosophy-daily-life',
-        excerpt: 'Apply ancient yoga wisdom to modern challenges for a more meaningful life.',
-        category: 'Philosophy',
-        author: 'Dr. Ananya Sharma',
-        authorImage: '👩‍⚕️',
-        date: '2025-12-25',
-        readTime: '13 min read',
-        image: '📖',
-        tags: ['Philosophy', 'Lifestyle', 'Wisdom'],
-        content: `Yoga philosophy offers timeless wisdom for navigating modern life with grace and purpose.
+            slug: 'yoga-philosophy-daily-life',
+                excerpt: 'Apply ancient yoga wisdom to modern challenges for a more meaningful life.',
+                    category: 'Philosophy',
+                        author: 'Dr. Ananya Sharma',
+                            authorImage: '👩‍⚕️',
+                                date: '2025-12-25',
+                                    readTime: '13 min read',
+                                        image: '📖',
+                                            tags: ['Philosophy', 'Lifestyle', 'Wisdom'],
+                                                content: `Yoga philosophy offers timeless wisdom for navigating modern life with grace and purpose.
 
 ## Applying the Yamas
 
@@ -1297,21 +1372,21 @@ Sharpen your mind with our courses!`
 - Find meaning
 
 Live yoga, don't just practice it!`
-    },
+},
 
-    {
-        id: 25,
+{
+    id: 25,
         title: 'Yoga for Anxiety Relief: Calming Practices',
-        slug: 'yoga-anxiety-relief-calming',
-        excerpt: 'Find relief from anxiety with these evidence-based yoga practices and techniques.',
-        category: 'Mental Health',
-        author: 'Priya Patel',
-        authorImage: '👩‍🔬',
-        date: '2025-12-24',
-        readTime: '10 min read',
-        image: '🕊️',
-        tags: ['Anxiety', 'Mental Health', 'Calm'],
-        content: `Anxiety affects millions. These yoga practices activate your relaxation response for natural relief.
+            slug: 'yoga-anxiety-relief-calming',
+                excerpt: 'Find relief from anxiety with these evidence-based yoga practices and techniques.',
+                    category: 'Mental Health',
+                        author: 'Priya Patel',
+                            authorImage: '👩‍🔬',
+                                date: '2025-12-24',
+                                    readTime: '10 min read',
+                                        image: '🕊️',
+                                            tags: ['Anxiety', 'Mental Health', 'Calm'],
+                                                content: `Anxiety affects millions. These yoga practices activate your relaxation response for natural relief.
 
 ## Understanding Anxiety
 
@@ -1370,21 +1445,21 @@ Tense and release each muscle group
 - Professional support when needed
 
 Find peace with our anxiety-relief program!`
-    },
+},
 
-    {
-        id: 26,
+{
+    id: 26,
         title: 'Yoga and Detoxification: Cleansing Practices',
-        slug: 'yoga-detoxification-cleansing',
-        excerpt: 'Support your body\'s natural detoxification with these yoga practices and Ayurvedic wisdom.',
-        category: 'Wellness',
-        author: 'Chef Meera Singh',
-        authorImage: '👩‍🍳',
-        date: '2025-12-23',
-        readTime: '9 min read',
-        image: '🌿',
-        tags: ['Detox', 'Cleansing', 'Ayurveda'],
-        content: `Your body has natural detoxification systems. Yoga supports these processes for optimal health.
+            slug: 'yoga-detoxification-cleansing',
+                excerpt: 'Support your body\'s natural detoxification with these yoga practices and Ayurvedic wisdom.',
+                    category: 'Wellness',
+                        author: 'Chef Meera Singh',
+                            authorImage: '👩‍🍳',
+                                date: '2025-12-23',
+                                    readTime: '9 min read',
+                                        image: '🌿',
+                                            tags: ['Detox', 'Cleansing', 'Ayurveda'],
+                                                content: `Your body has natural detoxification systems. Yoga supports these processes for optimal health.
 
 ## How Yoga Detoxifies
 
@@ -1441,21 +1516,21 @@ Find peace with our anxiety-relief program!`
 - Avoid processed foods
 
 Support your body's wisdom!`
-    },
+},
 
-    {
-        id: 27,
+{
+    id: 27,
         title: 'Yoga for Posture Correction',
-        slug: 'yoga-posture-correction',
-        excerpt: 'Correct poor posture and prevent related pain with these targeted yoga practices.',
-        category: 'Therapeutic',
-        author: 'Rahul Verma',
-        authorImage: '👨‍🏫',
-        date: '2025-12-22',
-        readTime: '10 min read',
-        image: '🧍',
-        tags: ['Posture', 'Alignment', 'Pain Relief'],
-        content: `Poor posture causes pain and health issues. Yoga can correct alignment and build postural awareness.
+            slug: 'yoga-posture-correction',
+                excerpt: 'Correct poor posture and prevent related pain with these targeted yoga practices.',
+                    category: 'Therapeutic',
+                        author: 'Rahul Verma',
+                            authorImage: '👨‍🏫',
+                                date: '2025-12-22',
+                                    readTime: '10 min read',
+                                        image: '🧍',
+                                            tags: ['Posture', 'Alignment', 'Pain Relief'],
+                                                content: `Poor posture causes pain and health issues. Yoga can correct alignment and build postural awareness.
 
 ## Common Posture Problems
 
@@ -1511,21 +1586,21 @@ Support your body's wisdom!`
 - Measure flexibility
 
 Transform your posture, transform your life!`
-    },
+},
 
-    {
-        id: 28,
+{
+    id: 28,
         title: 'Yoga and Breathwork: Complete Guide',
-        slug: 'yoga-breathwork-complete-guide',
-        excerpt: 'Master the art of pranayama with this comprehensive guide to yogic breathing techniques.',
-        category: 'Pranayama',
-        author: 'Dr. Ananya Sharma',
-        authorImage: '👩‍⚕️',
-        date: '2025-12-21',
-        readTime: '14 min read',
-        image: '💨',
-        tags: ['Pranayama', 'Breathwork', 'Advanced'],
-        content: `Pranayama is the bridge between body and mind. Master these techniques for profound transformation.
+            slug: 'yoga-breathwork-complete-guide',
+                excerpt: 'Master the art of pranayama with this comprehensive guide to yogic breathing techniques.',
+                    category: 'Pranayama',
+                        author: 'Dr. Ananya Sharma',
+                            authorImage: '👩‍⚕️',
+                                date: '2025-12-21',
+                                    readTime: '14 min read',
+                                        image: '💨',
+                                            tags: ['Pranayama', 'Breathwork', 'Advanced'],
+                                                content: `Pranayama is the bridge between body and mind. Master these techniques for profound transformation.
 
 ## Foundational Techniques
 
@@ -1595,21 +1670,21 @@ Avoid certain techniques if you have:
 - Respiratory issues
 
 Always learn from qualified teacher!`
-    },
+},
 
-    {
-        id: 29,
+{
+    id: 29,
         title: 'Yoga for Better Relationships',
-        slug: 'yoga-better-relationships',
-        excerpt: 'Improve your relationships through self-awareness, compassion, and yoga philosophy.',
-        category: 'Lifestyle',
-        author: 'Priya Patel',
-        authorImage: '👩‍🔬',
-        date: '2025-12-20',
-        readTime: '11 min read',
-        image: '💝',
-        tags: ['Relationships', 'Communication', 'Growth'],
-        content: `Yoga transforms not just you, but your relationships. Here's how practice improves connections.
+            slug: 'yoga-better-relationships',
+                excerpt: 'Improve your relationships through self-awareness, compassion, and yoga philosophy.',
+                    category: 'Lifestyle',
+                        author: 'Priya Patel',
+                            authorImage: '👩‍🔬',
+                                date: '2025-12-20',
+                                    readTime: '11 min read',
+                                        image: '💝',
+                                            tags: ['Relationships', 'Communication', 'Growth'],
+                                                content: `Yoga transforms not just you, but your relationships. Here's how practice improves connections.
 
 ## How Yoga Helps Relationships
 
@@ -1682,21 +1757,21 @@ Always learn from qualified teacher!`
 - Support each other's growth
 
 Grow together through yoga!`
-    },
+},
 
-    {
-        id: 30,
+{
+    id: 30,
         title: 'Creating Your Home Yoga Practice',
-        slug: 'creating-home-yoga-practice',
-        excerpt: 'Build a sustainable, effective home yoga practice with this comprehensive guide.',
-        category: 'Practice',
-        author: 'Rahul Verma',
-        authorImage: '👨‍🏫',
-        date: '2025-12-19',
-        readTime: '12 min read',
-        image: '🏠',
-        tags: ['Home Practice', 'Routine', 'Self-Practice'],
-        content: `A home practice is the heart of yoga. Here's how to create one that sticks.
+            slug: 'creating-home-yoga-practice',
+                excerpt: 'Build a sustainable, effective home yoga practice with this comprehensive guide.',
+                    category: 'Practice',
+                        author: 'Rahul Verma',
+                            authorImage: '👨‍🏫',
+                                date: '2025-12-19',
+                                    readTime: '12 min read',
+                                        image: '🏠',
+                                            tags: ['Home Practice', 'Routine', 'Self-Practice'],
+                                                content: `A home practice is the heart of yoga. Here's how to create one that sticks.
 
 ## Setting Up Your Space
 
@@ -1797,7 +1872,7 @@ Your mat is waiting. Start today!
 ---
 
 *Join Eagle Yoga Foundation's courses for structured learning and expert guidance on your yoga journey!*`
-    }
+}
 ];
 
 // Helper function to get blog by slug

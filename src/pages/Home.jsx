@@ -1,37 +1,47 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
+import Eagle3DOverlay from '../components/Eagle3DOverlay';
 import './Home.css';
 
 const Home = () => {
+    // Splash screen removed for simple opening
+
     const features = [
         {
-            icon: '🧘',
+            icon: '/images/expert-instructors.png',
             title: 'Expert Instructors',
-            description: 'Learn from certified yoga masters with decades of experience'
+            description: 'Learn from certified yoga masters with decades of experience',
+            isImage: true
         },
         {
-            icon: '🤖',
+            icon: '/images/ai-guidance.png',
             title: 'AI-Powered Guidance',
-            description: 'Get personalized recommendations from our Eagle Yoga AI'
+            description: 'Get personalized recommendations from our Eagle Yoga AI',
+            isImage: true
         },
         {
-            icon: '📱',
+            icon: '/images/learn-anywhere.png',
             title: 'Learn Anywhere',
-            description: 'Access courses on any device, anytime, anywhere'
+            description: 'Access courses on any device, anytime, anywhere',
+            isImage: true
         },
         {
-            icon: '🏆',
+            icon: '/images/certified-courses.png',
             title: 'Certified Courses',
-            description: 'Earn recognized certifications upon course completion'
+            description: 'Earn recognized certifications upon course completion',
+            isImage: true
         },
         {
-            icon: '💪',
+            icon: '/images/health-assessment.png',
             title: 'Health Assessment',
-            description: 'AI-powered health analysis and personalized plans'
+            description: 'AI-powered health analysis and personalized plans',
+            isImage: true
         },
         {
-            icon: '🌟',
+            icon: '/images/community-support.png',
             title: 'Community Support',
-            description: 'Join thousands of students on their wellness journey'
+            description: 'Join thousands of students on their wellness journey',
+            isImage: true
         }
     ];
 
@@ -39,25 +49,29 @@ const Home = () => {
         {
             name: 'Priya Sharma',
             role: 'Level 3 Graduate',
-            image: '👩',
-            text: 'Eagle Yoga Foundation transformed my life. The AI health test was incredibly accurate!'
+            image: '/images/user-priya.png',
+            text: 'Eagle Yoga Foundation transformed my life. The AI health test was incredibly accurate!',
+            isImage: true
         },
         {
             name: 'Rahul Verma',
             role: 'Level 2 Student',
-            image: '👨',
-            text: 'Best investment I made in my health. The instructors are world-class.'
+            image: '/images/user-rahul.png',
+            text: 'Best investment I made in my health. The instructors are world-class.',
+            isImage: true
         },
         {
             name: 'Anjali Patel',
             role: 'Level 1 Graduate',
-            image: '👩',
-            text: 'The Eagle AI consultant helped me create a perfect wellness routine.'
+            image: '/images/user-anjali.png',
+            text: 'The Eagle AI consultant helped me create a perfect wellness routine.',
+            isImage: true
         }
     ];
 
     return (
         <div className="home">
+
             {/* Hero Section */}
             <section className="hero">
                 <div className="hero-background"></div>
@@ -106,7 +120,13 @@ const Home = () => {
                     <div className="features-grid">
                         {features.map((feature, index) => (
                             <div key={index} className="feature-card card animate-fade-in">
-                                <div className="feature-icon">{feature.icon}</div>
+                                <div className="feature-icon">
+                                    {feature.isImage ? (
+                                        <img src={feature.icon} alt={feature.title} className="feature-icon-img" />
+                                    ) : (
+                                        feature.icon
+                                    )}
+                                </div>
                                 <h3 className="feature-title">{feature.title}</h3>
                                 <p className="feature-description">{feature.description}</p>
                             </div>
@@ -187,21 +207,27 @@ const Home = () => {
                             </p>
                             <div className="ai-benefits">
                                 <div className="benefit">
-                                    <span className="benefit-icon">🔍</span>
+                                    <div className="benefit-icon">
+                                        <img src="/images/ai-icon-analysis.png" alt="Health Analysis" className="ai-icon-img" />
+                                    </div>
                                     <div>
                                         <h4>AI Health Analysis</h4>
                                         <p>Advanced facial recognition and health assessment</p>
                                     </div>
                                 </div>
                                 <div className="benefit">
-                                    <span className="benefit-icon">💬</span>
+                                    <div className="benefit-icon">
+                                        <img src="/images/ai-icon-chat.png" alt="AI Consultant" className="ai-icon-img" />
+                                    </div>
                                     <div>
                                         <h4>24/7 AI Consultant</h4>
                                         <p>Get instant answers to your yoga and wellness questions</p>
                                     </div>
                                 </div>
                                 <div className="benefit">
-                                    <span className="benefit-icon">📊</span>
+                                    <div className="benefit-icon">
+                                        <img src="/images/ai-icon-tracking.png" alt="Progress Tracking" className="ai-icon-img" />
+                                    </div>
                                     <div>
                                         <h4>Progress Tracking</h4>
                                         <p>Monitor your journey with detailed analytics</p>
@@ -219,7 +245,9 @@ const Home = () => {
                         </div>
                         <div className="ai-visual">
                             <div className="ai-card card-glass">
-                                <div className="ai-icon">🤖</div>
+                                <div className="ai-icon">
+                                    <img src="/images/eagle-ai-avatar.png" alt="Eagle Yoga AI" className="eagle-ai-img" />
+                                </div>
                                 <h3>Eagle Yoga AI</h3>
                                 <p>Your personal wellness companion powered by Google Gemini</p>
                             </div>
@@ -238,7 +266,13 @@ const Home = () => {
                     <div className="testimonials-grid">
                         {testimonials.map((testimonial, index) => (
                             <div key={index} className="testimonial-card card">
-                                <div className="testimonial-avatar">{testimonial.image}</div>
+                                <div className="testimonial-avatar">
+                                    {testimonial.isImage ? (
+                                        <img src={testimonial.image} alt={testimonial.name} className="testimonial-img" />
+                                    ) : (
+                                        testimonial.image
+                                    )}
+                                </div>
                                 <p className="testimonial-text">"{testimonial.text}"</p>
                                 <div className="testimonial-author">
                                     <h4>{testimonial.name}</h4>

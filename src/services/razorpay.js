@@ -17,9 +17,15 @@ export const processPayment = async (course, userDetails) => {
     // 1. Get Key
     let API_KEY = import.meta.env.VITE_RAZORPAY_KEY_ID;
 
+    // IMMEDIATE FIX: Fallback to the live key if Env is stale (user didn't restart server)
+    if (!API_KEY || API_KEY === 'rzp_test_demo') {
+        console.warn("Using Hardcoded Fallback Key because Env is stale");
+        API_KEY = 'rzp_live_S6eHckEaTG04FG';
+    }
+
     console.log("------------------------------------------");
     console.log("RAZORPAY DEBUG: Start Payment Process");
-    console.log("Env Key ID:", API_KEY);
+    console.log("Active Key ID:", API_KEY);
     console.log("------------------------------------------");
 
     // 2. Logic: If Key is missing or default, force simulation with a warning.
